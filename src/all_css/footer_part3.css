@@ -1,0 +1,14 @@
+.part3{
+    background-color: aquamarine;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }

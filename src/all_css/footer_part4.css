@@ -1,0 +1,64 @@
+.part4 {
+  background-color: violet;
+  width: 100%;
+  height: 270px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.p4box {
+  height: inherit;
+  background-color: burlywood;
+  line-height: 38px;
+  justify-content: flex-start;
+}
+.menu {
+  list-style: none;
+  .menu-item{
+    font-size: 13px;
+  }
+}
+
+.social {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  margin-bottom: 5px;
+}
+
+.email-btn {
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  .email {
+    display: flex;
+    justify-content: space-between;
+    .mailbox {
+      background-color: aqua;
+      width: 265px;
+      height: 48px;
+      border-radius: 10px;
+      display: flex;
+      padding: 10px;
+      & input {
+        border: none;
+        width: 100%;
+      }
+    }
+  }
+}
+.submit-btn {
+  background-color: aquamarine;
+  width: 63px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  & input {
+    border: none;
+  }
+}
+
+figcaption{
+  font-size: 12px;
+}

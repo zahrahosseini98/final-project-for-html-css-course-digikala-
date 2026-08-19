@@ -1,0 +1,30 @@
+.footer-top {
+  width: 100%;
+  background-color: brown;
+  margin: 0 auto;
+  .part1 {
+    background-color: bisque;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    .go-to-top {
+        display: flex;
+        justify-content: space-evenly;
+        align-items:flex-start;
+      width: 137.7px;
+      height: 40px;
+      background-color: limegreen;
+    }
+    .logo {
+      width: 195px;
+      height: 40px;
+      background-color: lightblue;
+      &svg {
+        width: inherit;
+        height: 30px;
+      }
+    }
+  }
+}
