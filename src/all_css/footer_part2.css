@@ -1,4 +1,6 @@
 .part2{
+    width: 97%;
+    margin: 0 auto;
     background-color:lightpink;
     display: flex;
     flex-flow: row wrap;

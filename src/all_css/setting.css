@@ -15,7 +15,13 @@
     font-family: yekan;
 }
 
-:root{
-    --gray:1111;
-    --orange:111;
+.main{
+    width: 100%;
 }
+
+/* .sec2, .sec4, .sec5, .sec6{
+    margin-top: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding: 0px 16px;
+} */

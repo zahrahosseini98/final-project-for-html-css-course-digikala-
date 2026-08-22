@@ -1,7 +1,8 @@
 .part7 {
-  width: 100%;
+  width: 97%;
   height: 89px;
   background-color: teal;
+  margin: 0 auto;
   display:flex;
   justify-content: center;
   align-items: center;

@@ -4,8 +4,10 @@
   margin: 0 auto;
   .part1 {
     background-color: bisque;
+    width: 97%;
     height: 60px;
     display: flex;
+    margin: 0 auto;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +18,8 @@
       width: 137.7px;
       height: 40px;
       background-color: limegreen;
+      justify-content: center;
+      align-items: center;
     }
     .logo {
       width: 195px;

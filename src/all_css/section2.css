@@ -1,0 +1,42 @@
+.sec2 {
+  width: 100%;
+  height: 95.5px;
+  margin: 0 auto;
+}
+
+.circles {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  & figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    & img {
+      width: 52px;
+    }
+  }
+}
+
+.bishtar {
+  margin-top: 10%;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  & figcaption{
+    margin-top: 4px;
+  }
+}
+
+.img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

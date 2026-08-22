@@ -1,7 +1,8 @@
 .part3{
     background-color: aquamarine;
-    width: 100%;
+    width: 97%;
     height: 190px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-flow: row wrap;
