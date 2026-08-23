@@ -1,5 +1,5 @@
 .part3{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 97%;
     height: 190px;
     margin: 0 auto;
@@ -13,3 +13,6 @@ figure{
         flex-direction: column;
         align-items: center;
     }
+    figcaption{
+  font-size: 12px;
+}

@@ -1,7 +1,7 @@
 .part2{
     width: 97%;
     margin: 0 auto;
-    background-color:lightpink;
+    /* background-color:lightpink; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;

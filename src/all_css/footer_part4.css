@@ -1,5 +1,5 @@
 .part4 {
-  background-color: violet;
+  /* background-color: violet; */
   width: 97%;
   height: 270px;
   margin: 0 auto;
@@ -8,7 +8,7 @@
 }
 .p4box {
   height: inherit;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   line-height: 38px;
   justify-content: flex-start;
 }
@@ -29,13 +29,13 @@
 }
 
 .email-btn {
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
   padding: 10px;
   .email {
     display: flex;
     justify-content: space-between;
     .mailbox {
-      background-color: aqua;
+      background-color: lightgray;
       width: 265px;
       height: 48px;
       border-radius: 10px;
@@ -44,22 +44,25 @@
       & input {
         border: none;
         width: 100%;
+        background-color: transparent;
       }
     }
   }
 }
 .submit-btn {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 63px;
   height: 48px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  ;
   & input {
+    padding:10px;
     border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: lightgray;
   }
 }
 
-figcaption{
-  font-size: 12px;
-}
