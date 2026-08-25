@@ -1,5 +1,6 @@
 .menu-items{
     width: 900px;
+    height: 40px;
     /* background-color: blue; */
     display: flex;
     align-items: center;
@@ -8,6 +9,7 @@
     .menu-item{
         display: flex;
         align-items: center;
+        font-size:smaller;
     }
 }
 .menu1{

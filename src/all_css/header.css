@@ -97,5 +97,5 @@ header {
 .bottom{
     width: 100%;
     height: calc(100% - 128px);
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
