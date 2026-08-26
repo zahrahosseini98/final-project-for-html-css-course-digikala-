@@ -14,8 +14,31 @@
     border-top: 1px solid;
 }
 .tarif{
-background-color: violet;
+/* background-color: violet; */
+padding: 20px;
+& p{
+    line-height: 25px;
+    font-size: 12px;
+    .fade1{
+        opacity: 0.4;
+    }
+    .fade{
+        opacity: 0.6;
+    }
 }
+.more{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    & p{
+        color: #1672DD;
+    }
+    & svg{
+        fill: #1672DD !important;
+    }
+}
+}
+
 .namad{
     /* background-color: blueviolet; */
     display: flex;

@@ -5,6 +5,11 @@
     margin-top: 24px;
     border: 1px solid;
     border-radius: 20px;
+    .sec12-bottom{
+        .s2{
+            width: 98%;
+        }
+    }
 
 }
 
