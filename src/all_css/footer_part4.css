@@ -16,6 +16,7 @@
   list-style: none;
   .menu-item{
     font-size: 13px;
+    color: rgb(162, 162, 162)
   }
 }
 
@@ -26,6 +27,9 @@
   justify-content: space-between;
   padding: 15px 0px;
   margin-bottom: 5px;
+  svg{
+    fill: rgb(162, 162, 162) !important;
+  }
 }
 
 .email-btn {
@@ -65,4 +69,7 @@
     background-color: lightgray;
   }
 }
-
+.jomle1, .jomle2, .menu{
+  color: #3f4064;
+  font-size: 18px;
+}

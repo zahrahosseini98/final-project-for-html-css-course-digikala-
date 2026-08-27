@@ -8,10 +8,12 @@
     .sec12-bottom{
         .s2{
             width: 98%;
-        }
-    }
-    .swiper-slider{
+            .swiper-wrapper{.swiper-slide{
         border: 1px solid;
+        border-radius: 10px;
+        border-color: lightgray ;
+        }}
+            
     }
 
 }
@@ -26,12 +28,19 @@
     align-items: center;
     .sec12-txt{
         line-height: 30px;
+        & p{
+            color: rgb(100, 99, 99);
+        }
     }
     .sec12-box{
         padding: 10px;
         border-radius: 10px;
         display: flex;
-        background-color: lightgray;
+        background-color: rgb(237, 235, 235);
+        color: rgb(69, 68, 68);
+        & svg{
+            fill: rgb(69, 68, 68) !important;
+        }
     }
 }
 

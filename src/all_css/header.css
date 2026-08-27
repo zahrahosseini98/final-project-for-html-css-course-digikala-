@@ -98,4 +98,6 @@ header {
     width: 100%;
     height: calc(100% - 128px);
     /* background-color: aquamarine; */
+    border-bottom: 1px solid;
+    border-color: gray;
 }

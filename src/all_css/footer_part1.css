@@ -17,20 +17,23 @@
       justify-content: space-evenly;
       width: 137.7px;
       height: 40px;
+      color: #81858b;
       /* background-color: limegreen; */
       justify-content: center;
       align-items: center;
       border: 1px solid;
       border-radius: 10px;
+       &svg {
+        width: inherit;
+        height: 30px;
+        fill: #81858b !important;
+      }
     }
     .logo {
       width: 195px;
       height: 40px;
       /* background-color: lightblue; */
-      &svg {
-        width: inherit;
-        height: 30px;
-      }
+     
     }
   }
 }

@@ -14,6 +14,7 @@
     border-top: 1px solid;
 }
 .tarif{
+    color: #81858b;
 /* background-color: violet; */
 padding: 20px;
 & p{
