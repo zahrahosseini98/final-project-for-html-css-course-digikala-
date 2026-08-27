@@ -1,7 +1,7 @@
 .sec12, .sec13, .sec14, .sec15, .sec16, .sec17, .sec18, .sec19{
     width: 100%;
     height: 387px;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-top: 24px;
     border: 1px solid;
     border-radius: 20px;
@@ -9,6 +9,9 @@
         .s2{
             width: 98%;
         }
+    }
+    .swiper-slider{
+        border: 1px solid;
     }
 
 }
@@ -35,5 +38,5 @@
 .sec12-bottom{
     width: 100%;
     height: calc(100% - 75px);
-    background-color: tomato;
+    /* background-color: tomato; */
 }
