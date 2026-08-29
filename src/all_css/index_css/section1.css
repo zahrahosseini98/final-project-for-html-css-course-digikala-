@@ -60,11 +60,13 @@ body {
 }
 
 .s1 .swiper-button-next {
-  background-image: url(../assets/images/download\ \(45\).svg);
-}
+  background-image: url(../../assets/images/download\ \(45\).svg);
+  }
+
 
 .s1 .swiper-button-prev {
-  background-image: url(../assets/images/download\ \(46\).svg);
+  background-image: url(../../assets/images/download\ \(46\).svg);
+  
 }
 
 .s1 .swiper-button-next,
@@ -84,15 +86,14 @@ body {
   left: auto !important;
 }
 
-.sec1:hover{
+.sec1:hover {
   cursor: pointer;
   .s1 .swiper-button-next,
-.s1 .swiper-button-prev{
-  display: block;
-  cursor: pointer;
+  .s1 .swiper-button-prev {
+    display: block;
+    cursor: pointer;
+  }
 }
-}
-
 
 .s1 .swiper-pagination-bullet {
   background-color: gray;
@@ -109,7 +110,6 @@ body {
   width: 20px;
   height: 8px;
 }
-
 
 .s1 .swiper-button-next,
 .s1 .swiper-button-prev {

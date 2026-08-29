@@ -3,37 +3,37 @@
   height: 314px;
   margin-top: 30px;
   .container {
-  width: 100%;
-  height: 100%;
-  background-color: #72ba2b;
-  margin: 0 auto;
-  border-radius: 20px;
-  display: flex;
-  gap: 2px;
-  .side-box {
-  width: 166px;
-  height: 100%;
-  /* background-color: aqua; */
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3px;
-  .sb1 {
-    width: 95%;
-    height: 120px;
-    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
+    background-color: #72ba2b;
+    margin: 0 auto;
+    border-radius: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    & img {
-      width: 64px;
-      height: 64px;
+    gap: 2px;
+    .side-box {
+      width: 166px;
+      height: 100%;
+      /* background-color: aqua; */
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+      .sb1 {
+        width: 95%;
+        height: 120px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+          width: 64px;
+          height: 64px;
+        }
+      }
     }
   }
-}
-}
   .sb2,
   .sb3,
   .sb4 {
@@ -49,20 +49,23 @@
   width: 126px;
   height: 28px;
 }
-.time:nth-child(1), .time:nth-child(3), .time:nth-child(5){
+.time:nth-child(1),
+.time:nth-child(3),
+.time:nth-child(5) {
   width: 26px;
   height: 26px;
   background-color: aquamarine;
   border-radius: 5px;
 }
-.time:nth-child(2), .time:nth-child(4){
+.time:nth-child(2),
+.time:nth-child(4) {
   color: white;
   font-size: 20px;
   padding: 0px 2px;
 }
 
-.sb4{
-  .txt-icon{
+.sb4 {
+  .txt-icon {
     width: 110px;
     height: 32px;
     background-color: bisque;
@@ -70,13 +73,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    & svg{
+    & svg {
       width: 16px;
       height: 16px;
     }
   }
 }
-
 
 html,
 body {
@@ -100,8 +102,6 @@ body {
   height: 300px;
   margin-left: 0;
   padding-top: 20px;
-  
-
 }
 
 .s2 .swiper-wrapper .swiper-slide {
@@ -121,20 +121,20 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 
-.last-slide{
-  & p{
-  font-size: 13px;
-  line-height: 50px;
-}}
+.last-slide {
+  & p {
+    font-size: 13px;
+    line-height: 50px;
+  }
+}
 
-.first-slide{
+.first-slide {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.last-slide{
+.last-slide {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }

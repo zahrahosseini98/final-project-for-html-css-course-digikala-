@@ -42,7 +42,6 @@ body {
 .s-sec10 {
   width: 97%;
   height: 100%;
-
 }
 
 .swiper-slide {
@@ -54,17 +53,14 @@ body {
   align-items: center;
 }
 
-@media (max-width: 760px) {
-  .swiper-button-next {
-    right: 20px;
-    transform: rotate(90deg);
-  }
-
-  .swiper-button-prev {
-    left: 20px;
-    transform: rotate(90deg);
-  }
+.swiper-button-next {
+  right: 20px;
 }
+
+.swiper-button-prev {
+  left: 20px;
+}
+
 .s-sec10 .swiper-slide {
   width: 90px !important;
   height: 124px !important;
@@ -76,7 +72,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  .brand-name{
+  .brand-name {
     padding-bottom: 5px;
     font-size: 13px;
   }
@@ -108,4 +104,5 @@ body {
   border-color: gray;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 18px 18px;}
+  background-size: 18px 18px;
+}
