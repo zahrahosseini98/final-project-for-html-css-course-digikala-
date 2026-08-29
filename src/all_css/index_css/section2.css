@@ -25,7 +25,7 @@
   justify-content: center;
   flex-direction: column;
   line-height: 30px;
-  & figcaption{
+  & figcaption {
     margin-top: 4px;
   }
 }
@@ -39,4 +39,3 @@
   align-items: center;
   justify-content: center;
 }
-

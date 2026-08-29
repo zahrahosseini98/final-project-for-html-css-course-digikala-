@@ -5,9 +5,6 @@
   &:hover {
     cursor: pointer;
     border-color: crimson;
-    .mega-menu {
-      display: flex;
-    }
   }
   &:hover .mega-menu {
     display: flex;
@@ -29,6 +26,7 @@
     flex-direction: column;
     overflow: auto;
     font-size: 13px;
+    direction: ltr;
     /* gap: 20px; */
     justify-content: space-evenly;
     & > * {
@@ -40,6 +38,7 @@
       /* background-color: blue; */
       padding: 23px 5px;
       transition-duration: 300ms;
+      direction: rtl;
     }
   }
 }
@@ -60,6 +59,13 @@
   position: absolute;
   right: 200px;
   flex-direction: column;
+  .left-mobile {
+    width: 100%;
+    
+  }
+  .left-laptop {
+    width: 75%;
+  }
 }
 
 .first-line {
@@ -70,6 +76,7 @@
   gap: 10px;
   padding-right: 20px;
   font-size: 13px;
+  color: #0d4485;
 }
 .left-mobile,
 .left-laptop {
@@ -78,6 +85,10 @@
   background-color: whitesmoke;
   border-bottom-left-radius: 15px;
   padding-bottom: 7px;
+  direction: ltr;
+  *{
+    direction: rtl;
+  }
 }
 .left-mobile .main-grid {
   display: grid;
@@ -117,15 +128,25 @@
     color: rgb(86, 85, 85);
   }
 }
-.first-line {
-  color: #0d4485;
+
+.left-side {
+  li:hover {
+    color: crimson;
+  }
+  .esm:hover {
+    color: crimson;
+  }
 }
 
-.left-side{
-  li:hover{
-    color: crimson;
-  }
-  .esm:hover{
-    color: crimson;
-  }
+.mega-menu:has(.laptop:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
 }
+
+.left-laptop .main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+

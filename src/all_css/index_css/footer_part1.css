@@ -23,7 +23,7 @@
       align-items: center;
       border: 1px solid;
       border-radius: 10px;
-       &svg {
+      &svg {
         width: inherit;
         height: 30px;
         fill: #81858b !important;
@@ -33,7 +33,6 @@
       width: 195px;
       height: 40px;
       /* background-color: lightblue; */
-     
     }
   }
 }

@@ -1,0 +1,42 @@
+.menu-items {
+  width: 900px;
+  height: 40px;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  .menu-item {
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+  }
+}
+.menu1 {
+  display: flex;
+  align-items: center;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.khat {
+  padding-left: 7px;
+  font-size: x-large;
+}
+
+.khat1 {
+  padding-left: 12px;
+  font-size: x-large;
+}
+.daste-bandi {
+  font-size: larger;
+  font-weight: 700;
+}
+.shegeftangiz {
+  text-decoration: none;
+  &:visited {
+    color: black;
+  }
+}

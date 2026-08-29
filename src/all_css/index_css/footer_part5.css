@@ -35,21 +35,21 @@
   justify-content: end;
   align-items: center;
   gap: 15px;
-    & svg {
-        display: flex;
-      width: 142px;
-      height: 44px;
-      align-items: center;
-    }
-  }
-
-  .senoqte{
-    background-color: white;
-    width: 42px;
-    height: 44px;
-    margin-right: 20px;
+  & svg {
     display: flex;
-    justify-content: center;
+    width: 142px;
+    height: 44px;
     align-items: center;
-    border-radius: 10px;
   }
+}
+
+.senoqte {
+  background-color: white;
+  width: 42px;
+  height: 44px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

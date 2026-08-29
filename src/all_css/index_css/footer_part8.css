@@ -1,7 +1,7 @@
 .footer-bottom {
   width: 100%;
   height: 160px;
-      background-color: rgb(224, 224, 226);
+  background-color: rgb(224, 224, 226);
 
   .part8 {
     width: 95%;
@@ -10,8 +10,7 @@
     grid-template-columns: repeat(9, 1fr);
     gap: 1px;
     margin: 0 auto;
-      background-color: lightslategrey;
-
+    background-color: lightslategrey;
   }
   .brand {
     width: 100%;
