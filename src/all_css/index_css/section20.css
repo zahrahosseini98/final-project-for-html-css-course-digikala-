@@ -1,7 +1,7 @@
 .sec20 {
   width: 100%;
   height: 400px;
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   margin-top: 24px;
   border: 1px solid;
   border-radius: 20px;
@@ -19,7 +19,4 @@
   height: 296px !important;
   }
 }
-.kala{
-  width: 100%;
-  background-color: aqua;
-}
+

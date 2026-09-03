@@ -1,0 +1,11 @@
+.red-banner {
+  width: 97%;
+  height: 110px;
+  margin: 20px auto 0px;
+  border-radius: 20px;
+  background-image:
+    url(../../assets/images/shegeft_angiz/green_prpl_banner/incrediblePattern.svg),
+    linear-gradient(to left, #f3dee2, #f4f1f1);
+  background-repeat: no-repeat;
+}
+/* left side css is in the green banner file */
