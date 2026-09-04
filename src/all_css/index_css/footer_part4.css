@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     .mailbox {
-      background-color: lightgray;
+      background-color: rgb(241, 239, 239);
       width: 265px;
       height: 48px;
       border-radius: 10px;

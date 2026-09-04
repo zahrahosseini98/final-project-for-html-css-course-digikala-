@@ -61,7 +61,6 @@
   flex-direction: column;
   .left-mobile {
     width: 100%;
-    
   }
   .left-laptop {
     width: 75%;
@@ -86,7 +85,7 @@
   border-bottom-left-radius: 15px;
   padding-bottom: 7px;
   direction: ltr;
-  *{
+  * {
     direction: rtl;
   }
 }
@@ -216,5 +215,3 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-
-

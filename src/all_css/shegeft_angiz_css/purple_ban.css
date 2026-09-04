@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position-x: right, left;
   display: flex;
+  justify-content: space-between;
   .txt{
     color: #b22ba4;
     fill: #b22ba4 !important;
@@ -18,8 +19,8 @@
     gap: 5px;
   }
 }
-.line-up p::before{
-  content: ;
+.line-up {
+  color: #b22ba4;
 }
 .line-down{
   display: flex;
@@ -34,9 +35,13 @@
   margin: 10px 30px;
 }
 .purple-left{
-  width: calc(100% - 470px);
+  width: 270px;
   margin: 10px 30px;
-  background-color: aqua;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
 
   
 }

@@ -55,8 +55,10 @@
 .time:nth-child(5) {
   width: 26px;
   height: 26px;
-  background-color: aquamarine;
+  background-color: white;
   border-radius: 5px;
+  text-align: center;
+  line-height: 26px;
 }
 .time:nth-child(2),
 .time:nth-child(4) {

@@ -36,7 +36,11 @@
 }
 .shegeftangiz {
   text-decoration: none;
+  color: gray;
   &:visited {
-    color: black;
+    color: gray;
   }
+}
+.a{
+  color: gray;
 }
