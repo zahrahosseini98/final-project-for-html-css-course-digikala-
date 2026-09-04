@@ -12,7 +12,7 @@
 }
 .mega-menu {
   display: none;
-  width: 78%;
+  width: 79%;
   height: 500px;
   /* background-color: lightgoldenrodyellow; */
   position: absolute;
@@ -61,7 +61,6 @@
   flex-direction: column;
   .left-mobile {
     width: 100%;
-    
   }
   .left-laptop {
     width: 75%;
@@ -86,7 +85,7 @@
   border-bottom-left-radius: 15px;
   padding-bottom: 7px;
   direction: ltr;
-  *{
+  * {
     direction: rtl;
   }
 }
@@ -97,6 +96,42 @@
 }
 
 .mega-menu:has(.mobile:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.kalaye-digital:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.lavazem-khanegi:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.mod:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.tala:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.salamat:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.ketab:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.gift-card:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.asbab-bazi:hover) .left-mobile,
+.left-mobile:hover {
+  display: block;
+}
+.mega-menu:has(.petshop:hover) .left-mobile,
 .left-mobile:hover {
   display: block;
 }
@@ -142,11 +177,41 @@
 .left-laptop:hover {
   display: block;
 }
+.mega-menu:has(.khane-ashpazkhane:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.arayeshi:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.tahrir:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.khodro:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.abzar:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.varzesh:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.supermarket:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
+.mega-menu:has(.mahali:hover) .left-laptop,
+.left-laptop:hover {
+  display: block;
+}
 
 .left-laptop .main-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-
-

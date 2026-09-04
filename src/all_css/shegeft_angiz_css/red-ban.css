@@ -1,0 +1,54 @@
+.red-banner {
+  width: 97%;
+  height: 110px;
+  margin: 20px auto 0px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-image:
+    url(../../assets/images/shegeft_angiz/green_prpl_banner/incrediblePattern.svg),
+    linear-gradient(to left, #f3dee2, #f4f1f1);
+  background-repeat: no-repeat;
+  .oval2 {
+    color: #ef4055;
+    fill: #ef4055 !important;
+  }
+}
+/* left side css is in the green banner file */
+.up-timer {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: burlywood; */
+  padding-bottom: 7px;
+ 
+  }
+  .red-t{
+    background-color: white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red-up{
+  /* background-color: aqua; */
+  display: flex;
+  gap: 20px;
+  & img{
+    width: 200px;
+    height: 25px;
+  }
+}
+.red-right-side{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.red-down{
+  font-size: 11px;
+  padding-right: 5px;
+  /* background-color: aquamarine; */
+}

@@ -17,3 +17,21 @@
   width: 90%;
   margin: 0 auto;
 }
+
+.poshtibani {
+  border-radius: 50%;
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 999;
+  background: linear-gradient(150deg, #7f53ef 14.63%, #2586ff 100%);
+  & svg{
+    width: 25px;
+  }
+}

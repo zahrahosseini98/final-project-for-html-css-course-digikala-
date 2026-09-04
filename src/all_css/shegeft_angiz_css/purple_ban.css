@@ -1,0 +1,60 @@
+.purple-banner {
+  width: 97%;
+  height: 110px;
+  margin: 20px auto 0px;
+  border-radius: 20px;
+  background-color: #ece6ec;
+  background-image:
+    url(../../assets/images/shegeft_angiz/green_prpl_banner/earlyAccessPatternPlus.svg),
+    url(../../assets/images/shegeft_angiz/green_prpl_banner/earlyAccessPatternPlusMobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: right, left;
+  display: flex;
+  justify-content: space-between;
+  .txt{
+    color: #b22ba4;
+    fill: #b22ba4 !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+.line-up {
+  color: #b22ba4;
+}
+.line-down{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+.purple-right img{
+  width: 470px;
+  height: 80%;
+  margin: 10px 30px;
+}
+.purple-left{
+  width: 270px;
+  margin: 10px 30px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+
+  
+}
+.sanie, .daqiqe, .saat{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .time{
+    font-size: 7px;
+  }
+}
