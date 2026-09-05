@@ -1,12 +1,192 @@
 .slider2 {
   width: 97%;
   height: 359px;
-  background-color: red;
+  background-color: #e2113b;
   margin: 15px auto 0px;
   border-radius: 10px;
+  background-image: url(../../assets/images/shegeft_angiz/deal-pattern.svg);
+
+  background-repeat: repeat-x;
   .title {
     width: 100%;
     height: 65.6px;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 20px;
+    & span {
+      color: white;
+      font-size: larger;
+    }
+  }
+}
+
+.s-2 .swiper-button-next,
+.s-2 .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}
+
+.s-2 .swiper-navigation-icon {
+  display: none !important;
+}
+
+.s-2 .swiper-button-next,
+.s-2 .swiper-button-prev {
+  fill: gray;
+  &:hover {
+    fill: black;
+  }
+}
+
+.s-2 .swiper-button-disabled {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+.star .swiper-slide {
+  width: 576px;
+  height: 257px;
+  background-color: white;
+  border-radius: 10px;
+}
+.s-2 .star {
+  margin-right: 20px;
+}
+
+.star-card {
+  width: 98%;
+  height: 98%;
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .star-svg {
+    width: 100%;
+    height: 30px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .star-kala {
+    /* background-color: aqua; */
+    display: flex;
+    gap: 20px;
+    .star-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      & img {
+        width: 200px !important;
+        height: 200px;
+      }
+    }
+  }
+  .star-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: calc(100% - 200px);
+    .star1{
+      & p{
+         text-align: right;
+         font-size: 13px;
+      }
+    }
+    .star2,
+    .star3 {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.color,
+.emtiaz,
+.qeimat,
+.star-timer {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  gap: 5px;
+  
+
+}
+.rang {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+.rang-name{
+  font-size: 11px;
+}
+.takhfif{
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #e2113b;
+  color: white;
+  border-radius: 9999px;
+}
+.qeimat-qabl{
+  text-decoration: line-through;
+  text-align: end;
+  padding-left: 30px;
+  color: gray;
+}
+.star-timer{
+  padding-left: 10px;
+  color: red;
+}
+.qeimat{
+  font-size: 15px;
+}
+.star-last{
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/shegeft_angiz/star/imageye___-_imgi_64_deal_of_the_day.png);
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: 350px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.slider2 .s-2 .star{
+  width: 97%;
+}
+.layer{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.67);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  .lock{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ef4055;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .layer-txt{
+    color: white;
+    font-size: 14px;
   }
 }
