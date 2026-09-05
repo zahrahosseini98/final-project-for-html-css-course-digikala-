@@ -21,6 +21,13 @@
 }
 .line-up {
   color: #b22ba4;
+  display: flex;
+  gap: 5px;
+  & svg{
+    width: 18px;
+    height: 18px;
+    fill: #b22ba4 !important;
+  }
 }
 .line-down{
   display: flex;
@@ -54,6 +61,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #b22ba4;
   .time{
     font-size: 7px;
   }
