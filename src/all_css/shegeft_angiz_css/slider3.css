@@ -1,7 +1,157 @@
-.sh-box-slider3 {
+.roo-be-etmam {
   width: 97%;
   height: 463px;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   margin: 30px auto 0px;
+  border: 1px solid;
+  border-color: lightgray;
   border-radius: 10px;
+}
+
+.s-2 .swiper-button-next,
+.s-2 .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}
+
+.s-2 .swiper-navigation-icon {
+  display: none !important;
+}
+
+.s-2 .swiper-button-next,
+.s-2 .swiper-button-prev {
+  fill: gray;
+  &:hover {
+    fill: black;
+  }
+}
+
+.s-2 .swiper-button-disabled {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+.etmam {
+  width: 99%;
+  height: 411px;
+  .swiper-slide {
+    width: 205px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+.etmam-card {
+  width: 98%;
+  height: 98%;
+  /* background-color: aqua; */
+}
+.etmam-title {
+  height: 30px;
+  display: flex;
+  gap: 5px;
+  margin: 20px 20px 0px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.e1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 20px 0px;
+}
+.e2 {
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  margin: 10px auto;
+  & img {
+    width: 100% !important;
+    object-fit: cover;
+  }
+}
+.e3 {
+  width: 160px;
+  margin-right: 20px;
+  & p {
+    text-align: justify;
+  }
+}
+.e4 {
+  display: flex;
+  gap: 5px;
+  margin: 15px 20px 0px;
+  .e4-svg {
+    fill: blue;
+  }
+}
+.b {
+  border-right: 1px solid;
+  border-color: lightgray;
+}
+.e5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  padding-top: 10px;
+  .e5-pardakhti{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+  .e5-off{
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+}
+.e6 {
+  text-decoration: line-through;
+  color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 10px 10px 35px;
+  /* background-color: aquamarine; */
+  margin-top: 5px;
+
+}
+
+
+.e7 {
+  width: 90%;
+  height: 5px;
+  background-color: lightgray;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+.e7-child {
+    width: 60%;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    margin-right: auto;
+  }
+.e8{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
+  .e8-timer {
+  color: red;
+}
+.e8-darsad{
+  color: red;
+}
 }

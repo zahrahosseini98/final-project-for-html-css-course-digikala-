@@ -9,7 +9,11 @@
   &:hover .mega-menu {
     display: flex;
   }
+  &:hover .left-mobile {
+    display: block;
+  }
 }
+
 .mega-menu {
   display: none;
   width: 79%;
@@ -59,12 +63,12 @@
   position: absolute;
   right: 200px;
   flex-direction: column;
-  .left-mobile {
+  /* .left-mobile {
     width: 100%;
   }
   .left-laptop {
     width: 75%;
-  }
+  } */
 }
 
 .first-line {
@@ -173,9 +177,14 @@
   }
 }
 
+
+
 .mega-menu:has(.laptop:hover) .left-laptop,
 .left-laptop:hover {
   display: block;
+}
+.mega-menu:has(.laptop:hover, .khane-ashpazkhane:hover, .arayeshi:hover, .tahrir:hover, .khodro:hover, .abzar:hover, .varzesh:hover, .supermarket:hover, .mahali:hover) .left-mobile{
+  display: none;
 }
 .mega-menu:has(.khane-ashpazkhane:hover) .left-laptop,
 .left-laptop:hover {

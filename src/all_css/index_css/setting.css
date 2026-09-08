@@ -35,3 +35,29 @@
     width: 25px;
   }
 }
+
+:root{
+  --gray: #444;
+  --gray-900: rgb(211, 211, 211);
+  --gray-800:rgb(128, 128, 128);
+  --gray-700:rgb(85, 85, 85);
+   --gray-600:rgb(188, 188, 188);
+   --gray-500:rgb(241, 239, 239);
+   --gray-400:#81858b;
+   --gray-300:rgb(222, 221, 221);
+  --black:rgb(0, 0, 0);
+  --white: #fff;
+  --white-100:#e0e0e0;
+  --white-200:#f0f0f1;
+  --white-300:rgb(162, 162, 162);
+  --white-400:rgb(237, 235, 235);
+  --blue-900:#3f4064;
+  --blue-800:#3c4b6d;
+  --blue-600:#1672dd;
+  --red:#d62e4e;
+  --red-400:#D32f2f;
+  --creamy:#fcf3ea;
+  --creamy-200:#fbe7d6;
+  --brown-300:#934c0f;
+  --green:#72ba2b;
+}
