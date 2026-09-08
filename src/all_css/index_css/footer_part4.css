@@ -1,5 +1,4 @@
 .part4 {
-  /* background-color: violet; */
   width: 97%;
   height: 270px;
   margin: 0 auto;
@@ -7,8 +6,6 @@
   grid-template-columns: repeat(4, 1fr);
 }
 .p4box {
-  height: inherit;
-  /* background-color: burlywood; */
   line-height: 38px;
   justify-content: flex-start;
 }
@@ -16,30 +13,28 @@
   list-style: none;
   .menu-item {
     font-size: 13px;
-    color: rgb(162, 162, 162);
+    color: var(--white-300);
   }
 }
 
 .social {
-  width: 100%;
   height: 72px;
   display: flex;
   justify-content: space-between;
   padding: 15px 0px;
   margin-bottom: 5px;
   svg {
-    fill: rgb(162, 162, 162) !important;
+    fill: var(--white-300) !important;
   }
 }
 
 .email-btn {
-  /* background-color: lightgoldenrodyellow; */
   padding: 10px;
   .email {
     display: flex;
     justify-content: space-between;
     .mailbox {
-      background-color: rgb(241, 239, 239);
+      background-color: var(--gray-500);
       width: 265px;
       height: 48px;
       border-radius: 10px;
@@ -54,7 +49,6 @@
   }
 }
 .submit-btn {
-  /* background-color: aquamarine; */
   width: 63px;
   height: 48px;
   border-radius: 10px;
@@ -64,13 +58,13 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
-    color: white;
-    background-color: lightgray;
+    color: var(--white);
+    background-color: var(--white-600);
   }
 }
 .jomle1,
 .jomle2,
 .menu {
-  color: #3f4064;
+  color: var(--blue-900);
   font-size: 18px;
 }

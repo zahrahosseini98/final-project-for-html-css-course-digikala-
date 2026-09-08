@@ -91,18 +91,16 @@ header {
       }
     }
   }
+  .bottom {
+    width: 100%;
+    height: calc(100% - 128px);
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid;
+    border-color: gray;
+    display: flex;
+    justify-content: space-between;
+  }
 }
-
-.bottom {
-  width: 100%;
-  height: calc(100% - 128px);
-  /* background-color: aquamarine; */
-  border-bottom: 1px solid;
-  border-color: gray;
-  display: flex;
-  justify-content: space-between;
-}
-
 .city {
   display: flex;
   margin-left: 30px;
@@ -141,12 +139,12 @@ header {
     position: absolute;
     inset: 100px;
     margin: auto;
-    .map{
+    .map {
       width: 96%;
       height: 430px;
       margin: auto;
       position: relative;
-      & iframe{
+      & iframe {
         width: 100%;
         height: 100%;
       }
@@ -154,7 +152,7 @@ header {
         position: absolute;
         right: 110px;
         top: 10px;
-      margin: 0px auto;
+        margin: 0px auto;
         border-radius: 8px;
         width: 500px;
         height: 44px;
@@ -178,7 +176,7 @@ header {
         }
       }
     }
-    .matn{
+    .matn {
       height: 20px;
       font-size: 12px;
       margin-right: 20px;
@@ -187,7 +185,7 @@ header {
       border-bottom: 1px solid;
       padding-bottom: 40px;
     }
-    .line-top{
+    .line-top {
       height: 30px;
       display: flex;
       justify-content: space-between;
@@ -196,7 +194,7 @@ header {
       /* background-color: aqua; */
       font-size: 20px;
     }
-    .close-btn{
+    .close-btn {
       font-size: xx-large;
       cursor: pointer;
       color: gray;
@@ -206,13 +204,13 @@ header {
 .active {
   display: block;
 }
-.last-line{
+.last-line {
   width: 96%;
   height: 50px;
   background-color: #ef4055;
   margin: 20px auto;
   border-radius: 10px;
-  & p{
+  & p {
     text-align: center;
     line-height: 50px;
     color: white;

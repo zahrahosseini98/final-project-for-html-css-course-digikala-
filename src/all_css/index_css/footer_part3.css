@@ -15,4 +15,5 @@ figure {
 }
 figcaption {
   font-size: 11px;
+  color: var(--blue-900);
 }
