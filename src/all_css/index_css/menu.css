@@ -1,7 +1,6 @@
 .menu-items {
   width: 900px;
   height: 40px;
-  /* background-color: blue; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -9,7 +8,7 @@
   .menu-item {
     display: flex;
     align-items: center;
-    font-size: smaller;
+    font-size: 12px;
   }
 }
 .menu1 {
@@ -36,11 +35,14 @@
 }
 .shegeftangiz {
   text-decoration: none;
-  color: gray;
+  color: var(--gray);
   &:visited {
-    color: gray;
+    color: var(--gray);
   }
 }
 .a{
-  color: gray;
+  color: var(--gray);
+}
+.z{
+  color: var(--gray-600);
 }
