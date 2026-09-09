@@ -60,6 +60,5 @@
   .sec12-bottom {
     width: 100%;
     height: calc(100% - 75px);
-    /* background-color: tomato; */
   }
 }

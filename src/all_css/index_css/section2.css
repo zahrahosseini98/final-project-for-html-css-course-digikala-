@@ -1,11 +1,8 @@
 .sec2 {
-  /* width: 100%; */
-  /* height: 95.5px; */
   margin: 0 auto;
 }
 
 .circles {
-  /* width: 100%; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
