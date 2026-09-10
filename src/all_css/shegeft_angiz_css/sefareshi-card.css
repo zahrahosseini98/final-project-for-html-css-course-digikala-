@@ -1,0 +1,103 @@
+.sef-card {
+  width: 98%;
+  height: 98%;
+}
+.sf1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 20px 0px;
+}
+.sf2 {
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  margin: 10px auto;
+  & img {
+    width: 100% !important;
+    object-fit: cover;
+  }
+}
+.sf3 {
+  width: 160px;
+  margin-right: 20px;
+  & p {
+    text-align: justify;
+  }
+}
+.sf4 {
+  display: flex;
+  gap: 5px;
+  margin: 15px 20px 0px;
+  .sf4-svg {
+    fill: blue;
+  }
+}
+.b {
+  border-right: 1px solid;
+  border-color: lightgray;
+}
+.sf5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  padding-top: 10px;
+  .sf5-pardakhti {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+  .sf5-off {
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+.sf6 {
+  text-decoration: line-through;
+  color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 10px 10px 35px;
+  margin-top: 5px;
+}
+
+.sf7 {
+  width: 90%;
+  height: 5px;
+}
+
+.sf8 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
+  .sf8-timer {
+    color: red;
+  }
+  .sf8-darsad {
+    color: red;
+  }
+}
+
+/* ------------------------------ */
+.sld-2 .p4 {
+  color: var(--red-400);
+  padding-top: 6px;
+}
+.sld-4 {
+  .p4-svg {
+    fill: var(--orange) !important;
+  }
+  .sf4 {
+    width: fit-content;
+    height: 23px;
+    background-color: var(--creamy-300);
+    border-radius: 99999px;
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+}
