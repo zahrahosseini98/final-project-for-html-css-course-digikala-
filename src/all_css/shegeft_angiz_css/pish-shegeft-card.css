@@ -1,0 +1,144 @@
+.pish-card {
+  width: 98%;
+  height: 98%;
+}
+.p1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 20px 0px;
+}
+.p2 {
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  margin: 10px auto;
+  & img {
+    width: 100% !important;
+    object-fit: cover;
+  }
+}
+.p3 {
+  width: 160px;
+  margin-right: 20px;
+  & p {
+    text-align: justify;
+  }
+}
+.p4 {
+  display: flex;
+  gap: 5px;
+  margin: 15px 20px 0px;
+  .p4-svg {
+    fill: blue;
+  }
+}
+.b {
+  border-right: 1px solid;
+  border-color: lightgray;
+}
+.p5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  padding-top: 10px;
+  .p5-pardakhti {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+  .p5-off {
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+.p6 {
+  text-decoration: line-through;
+  color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 10px 10px 35px;
+  margin-top: 5px;
+}
+
+.p7 {
+  width: 90%;
+  height: 5px;
+  background-color: lightgray;
+  margin: auto;
+  border-radius: 10px;
+}
+.p7-child {
+  height: 5px;
+  background-color: red;
+  border-radius: 10px;
+  margin-right: auto;
+}
+.p8 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
+  .p8-timer {
+    color: red;
+  }
+  .p8-darsad {
+    color: red;
+  }
+}
+
+/* -----------------نمایش درصد فروش-------- */
+.roo-be-etmam {
+  .sld-1 .p7-child {
+    width: 62%;
+  }
+  .sld-2 .p7-child {
+    width: 96%;
+  }
+  .sld-3 .p7-child {
+    width: 35%;
+  }
+  .sld-4 .p7-child {
+    width: 47%;
+  }
+  .sld-5 .p7-child {
+    width: 51%;
+  }
+  .sld-6 .p7-child {
+    width: 87%;
+  }
+  .sld-7 .p7-child {
+    width: 76%;
+  }
+  .sld-8 .p7-child {
+    width: 19%;
+  }
+  .sld-9 .p7-child {
+    width: 31%;
+  }
+  .sld-10 .p7-child {
+    width: 68%;
+  }
+}
+/* ------------------------------ */
+.sld-2 .p4 {
+  color: var(--red-400);
+  padding-top: 6px;
+}
+.sld-4 {
+  .p4-svg {
+    fill: var(--orange) !important;
+  }
+  .p4 {
+    width: fit-content;
+    height: 23px;
+    background-color: var(--creamy-300);
+    border-radius: 99999px;
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+}
