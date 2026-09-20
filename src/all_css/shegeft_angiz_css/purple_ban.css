@@ -3,7 +3,7 @@
   height: 110px;
   margin: 20px auto 0px;
   border-radius: 20px;
-  background-color: #ece6ec;
+  background-color: var(--purple-100);
   background-image:
     url(../../assets/images/shegeft_angiz/green_prpl_banner/earlyAccessPatternPlus.svg),
     url(../../assets/images/shegeft_angiz/green_prpl_banner/earlyAccessPatternPlusMobile.svg);
@@ -12,21 +12,21 @@
   display: flex;
   justify-content: space-between;
   .txt{
-    color: #b22ba4;
-    fill: #b22ba4 !important;
+    color: var(--purple-300);
+    fill: var(--purple-300) !important;
     display: flex;
     align-items: center;
     gap: 5px;
   }
 }
 .line-up {
-  color: #b22ba4;
+  color: var(--purple-300);
   display: flex;
   gap: 5px;
   & svg{
     width: 18px;
     height: 18px;
-    fill: #b22ba4 !important;
+    fill: var(--purple-300) !important;
   }
 }
 .line-down{
@@ -34,7 +34,6 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
-  /* background-color: blue; */
 }
 .purple-right img{
   width: 470px;
@@ -44,7 +43,6 @@
 .purple-left{
   width: 270px;
   margin: 10px 30px;
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -55,13 +53,13 @@
 .sanie, .daqiqe, .saat{
   width: 40px;
   height: 40px;
-  background-color: white;
+  background-color: var(--white);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #b22ba4;
+  color: var(--purple-300);
   .time{
     font-size: 7px;
   }
