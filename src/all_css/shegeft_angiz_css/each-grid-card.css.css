@@ -30,7 +30,7 @@
     display: flex;
     gap: 5px;
     .eg4-svg {
-      fill: blue;
+      fill: var(--blue-500);
     }
   }
   .eg4-left{
@@ -41,7 +41,7 @@
 }
 .b {
   border-right: 1px solid;
-  border-color: lightgray;
+  border-color: var(--gray-500);
 }
 .eg5 {
   display: flex;
@@ -56,16 +56,19 @@
   .eg5-off {
     width: 30px;
     height: 20px;
-    background-color: red;
+    background-color: var(--red-400);
     border-radius: 20px;
-    color: white;
-    text-align: center;
-    line-height: 20px;
+    color: var(--white);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .eg6 {
   text-decoration: line-through;
-  color: lightgray;
+  color: var(--gray-800);
+  font-size: 12px;
   display: flex;
   justify-content: flex-end;
   margin: 0px 10px 10px 35px;
@@ -75,25 +78,17 @@
 .eg7 {
   width: 90%;
   height: 5px;
-  /* background-color: lightgray;
-  margin: auto;
-  border-radius: 10px; */
 }
-/* .eg7-child {
-  height: 5px;
-  background-color: red;
-  border-radius: 10px;
-  margin-right: auto;
-} */
 .eg8 {
   display: flex;
   justify-content: space-between;
   margin: 5px 20px;
+  font-size: 12px;
   .eg8-timer {
-    color: red;
+    color: var(--red-400);
   }
   .eg8-darsad {
-    color: red;
+    color: var(--red-400);
   }
 }
 

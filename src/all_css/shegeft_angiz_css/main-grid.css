@@ -17,12 +17,12 @@
   position: relative;
   top: 80px;
   border-top: 1px solid;
-  border-color: lightgray;
+  border-color: var(--gray-500);
   overflow: auto;
   .side-bar-menu {
     width: 100%;
     border: 1px solid;
-    border-color: lightgray;
+    border-color: var(--gray-500);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -69,14 +69,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  & svg {
+  .sign {
     fill: var(--gray-800) !important;
   }
 }
+.sari{
+  fill: var(--blue-500) !important;
+}
+.market{
+  fill: var(--green-400) !important;
+}
+.seller{
+  fill: var(--orange) !important;
+}
+.h3{
+  display: flex;
+  gap: 4px;
+}
+
 
 .main-grid-left {
   width: calc(100% - 270px);
-  background-color: lightgray;
+  background-color: var(--gray-500);
   display: flex;
   flex-direction: column;
 }
@@ -87,15 +101,15 @@
   grid-template-rows: repeat(7, 1fr);
   gap: 1px;
   border-top: 1px solid;
-  border-color: lightgrey;
+  border-color: var(--gray-500);
   .each-kala {
-    background-color: white;
+    background-color: var(--white);
   }
 }
 .filter {
   width: 100%;
   height: 40px;
-  background-color: white;
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
   font-size: 11px;
@@ -105,7 +119,7 @@
     align-items: center;
     gap: 15px;
     .sub-filter {
-      color: rgb(154, 153, 153);
+      color: var(--nude-400);
     }
   }
 }
@@ -113,11 +127,11 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  color: black !important;
+  color: var(--black) !important;
 }
 .tedad-kol {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(154, 153, 153);
+  color: var(--nude-400);
 }

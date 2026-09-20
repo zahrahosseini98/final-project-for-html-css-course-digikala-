@@ -29,6 +29,7 @@ header {
         font-size: 12px;
         display: flex;
         align-items: center;
+        cursor: pointer;
         border: 1px solid;
         border-color: var(--white-400);
         border-radius: 7px;
@@ -45,10 +46,12 @@ header {
       .shop {
         padding-top: 5px;
         fill: var(--gray) !important;
+        cursor: pointer;
       }
       .notif {
         padding-top: 5px;
         fill: var(--gray) !important;
+        cursor: pointer;
       }
     }
     .right {

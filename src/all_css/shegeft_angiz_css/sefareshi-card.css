@@ -11,7 +11,7 @@
 .sf2 {
   width: 150px;
   height: 150px;
-  background-color: antiquewhite;
+  background-color: var(--white-200);
   margin: 10px auto;
   & img {
     width: 100% !important;
@@ -30,12 +30,12 @@
   gap: 5px;
   margin: 15px 20px 0px;
   .sf4-svg {
-    fill: blue;
+    fill: var(--blue-500);
   }
 }
 .b {
   border-right: 1px solid;
-  border-color: lightgray;
+  border-color: var(--gray-500);
 }
 .sf5 {
   display: flex;
@@ -50,16 +50,16 @@
   .sf5-off {
     width: 30px;
     height: 20px;
-    background-color: red;
+    background-color: var(--red-400);
     border-radius: 20px;
-    color: white;
+    color: var(--white);
     text-align: center;
     line-height: 20px;
   }
 }
 .sf6 {
   text-decoration: line-through;
-  color: lightgray;
+  color: var(--gray-800);
   display: flex;
   justify-content: flex-end;
   margin: 0px 10px 10px 35px;
@@ -76,10 +76,10 @@
   justify-content: space-between;
   margin: 5px 20px;
   .sf8-timer {
-    color: red;
+    color: var(--red-400);
   }
   .sf8-darsad {
-    color: red;
+    color: var(--red-400);
   }
 }
 
