@@ -1,7 +1,6 @@
 .megamenu {
   height: 100%;
-  border-bottom: 3px solid;
-  border-color: transparent;
+  
   &:hover {
     cursor: pointer;
     border-color: var(--red);
@@ -140,4 +139,23 @@
 }
 .megamenu:has(.mobile:hover, .kalaye-digital:hover,.lavazem-khanegi:hover, .mod:hover, .tala:hover, .salamat:hover, .ketab:hover, .gift-card:hover, .asbab-bazi:hover, .petshop:hover, .left-mobile:hover) .left-laptop {
   display: none;
+}
+
+.daste-bandi {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 2px;
+    background: var(--red-500, var(--red-500));
+    transition: width 250ms ease;
+  }
+}
+
+.menu-item.megamenu:hover .daste-bandi::after {
+  width: 100%;
 }
