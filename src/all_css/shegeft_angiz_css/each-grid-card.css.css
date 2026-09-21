@@ -1,3 +1,30 @@
+.each-kala{
+  position: relative;
+  .colors{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    > * {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+    }
+
+    > :nth-child(1) { background-color: var(--blue-500); }
+    > :nth-child(2) { background-color: var(--red-500); }
+    > :nth-child(3) { background-color: var(--black); }
+  }
+}
+
+.each-kala:hover{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
 .eg1 {
   display: flex;
   justify-content: flex-start;
@@ -108,5 +135,17 @@
     border-radius: 99999px;
     padding: 3px 10px;
     font-size: 10px;
+  }
+}
+
+.each-kala:nth-child(2){
+  .eg4-right{
+    height: 23px;
+    background-color: var(--creamy-300);
+    border-radius: 9999px;
+    padding: 3px 10px;
+    font-size: 10px;
+    l
+
   }
 }
