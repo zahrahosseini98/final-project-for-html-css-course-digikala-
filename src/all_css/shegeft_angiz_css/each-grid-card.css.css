@@ -1,6 +1,6 @@
-.each-kala{
+.each-kala {
   position: relative;
-  .colors{
+  .colors {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -14,16 +14,21 @@
       border-radius: 50%;
     }
 
-    > :nth-child(1) { background-color: var(--blue-500); }
-    > :nth-child(2) { background-color: var(--red-500); }
-    > :nth-child(3) { background-color: var(--black); }
+    > :nth-child(1) {
+      background-color: var(--blue-500);
+    }
+    > :nth-child(2) {
+      background-color: var(--red-500);
+    }
+    > :nth-child(3) {
+      background-color: var(--black);
+    }
   }
 }
 
-.each-kala:hover{
+.each-kala:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-
 
 .eg1 {
   display: flex;
@@ -42,6 +47,7 @@
   }
 }
 .eg3 {
+  font-size: 13px;
   width: 160px;
   margin-right: 20px;
   & p {
@@ -60,7 +66,7 @@
       fill: var(--blue-500);
     }
   }
-  .eg4-left{
+  .eg4-left {
     font-size: 11px;
     display: flex;
     gap: 5px;
@@ -138,14 +144,26 @@
   }
 }
 
-.each-kala:nth-child(2){
-  .eg4-right{
+.each-kala:nth-child(2) {
+  .eg4-right {
     height: 23px;
     background-color: var(--creamy-300);
     border-radius: 9999px;
     padding: 3px 10px;
     font-size: 10px;
-    l
-
   }
+  .eg7 {
+  width: 90%;
+  height: 5px;
+  background-color: var(--gray-500);
+  margin: auto;
+  border-radius: 10px;
+}
+.eg7-child {
+  width: 20%;
+  height: 5px;
+  background-color: var(--red-400);
+  border-radius: 10px;
+  margin-right: auto;
+}
 }
